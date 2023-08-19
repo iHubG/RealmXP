@@ -5,13 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RealmXP</title>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="./img/realmsxp.png"/>
     </head>
 
     <body>
         <div class="holy-grail-grid">
             <header class="header">
                 <nav>
-                    <h2>RealmXP</h2>
+                    <div class="logo">
+                        <img src="./img/realmsxp.png" alt="RealmXP Logo"/>
+                        <h2>RealmXP</h2>
+                    </div>
+                    
                     <div class="search">
                         <input type="search" id="Search" placeholder="Search"/>
                         <img src="/img/icons8-filter-50.png"/>
@@ -20,18 +25,59 @@
                     
                     <div class="menu">
                         <h2>Menu</h2>
-                        <select name="Menu">
-                            <option value="Setting"><a href="" class="option">Settings</a></option>
-                            <option value="Rewards"><a href="" class="option">Rewards</a></option>
-                            <option value="Policy"><a href="" class="option">Policy</a></option>
-                            <option value="About Us"><a href="" class="option">About Us</a></option>
-                        </select>
+                        <img class="img-menu" src="/img/icons8-menu-50.png"/>
+                        <div class="menu-list">
+                            <a>Settings</a>
+                            <a>Rewards</a>
+                            <a>Policy</a>
+                            <a>About Us</a>
+                        </div>
                     </div>
                 </nav>
             </header>
 
             <main class="main-content">
+               <div class="newsfeed-box">
+                    <div class="friends-feed">
+                        <p>Friends</p>
+                        <img src="./img/icons8-friend-64.png" alt="Friend"/>
+                    </div>
+                    <div class="world-feed">
+                        <p>World</p>
+                        <img src="./img/icons8-globe-100.png" alt="world"/>
+                    </div>
+                    <div class="local-feed">
+                        <p>Local</p>
+                        <img src="./img/icons8-local-100.png" alt="Local"/>
+                    </div>
+               </div>
 
+               <div class="create-post">
+                    <p>Create Post</p>
+                    <img src="./img/icons8-compact-camera-100.png" alt="Camera"/>
+                    <img src="./img/icons8-sent-96.png" alt="Sent"/>
+               </div>
+
+               <div class="post-box">
+                    <div class="male-avatar">
+                        <img src="./img/icons8-male-user-100.png" alt="Male"/>
+                        <p>Anonymous</p>
+                    </div>
+                    <div class="post-picture">
+                        <img src="./img/57457-Fantasy-Portal-4k-Ultra-HD-Wallpaper.jpg"/>
+                    </div>
+                    <div class="like-comment">
+                        <img src="./img/icons8-facebook-like-96.png" alt="Like"/>
+                        <img src="./img/icons8-comments-64.png" alt="Comment"/>
+                        <input type="text" placeholder="Comment"/>
+                        <img src="./img/icons8-sent-96.png" alt="Sent"/>
+                        <img src="./img/icons8-share-100.png" alt="Share"/>
+                    </div>
+                    <div class="codm-ad">
+                        <p>Ad</p>
+                        <img src="./img/CODM-500-Million-TOUT.jpg" alt="Codm"/>
+                    </div>
+               </div>
             </main>
 
             <section class="left-sidebar">
@@ -42,8 +88,17 @@
                 </div>
                 <div class="account">
                     <a>My Page</a>
-                    <a>Profiles</a>
-                    <a>Account</a>
+                    <a class="profiles">Profiles</a>
+                        <div class="profile-dropdown">
+                            <p>Profiles</p>
+                            <p>Name</p>
+                            <p>Game</p>
+                        </div>
+                    <a class="accounts">Account</a>
+                        <div class="accounts-dropdown">
+                            <a>Account Settings</a>
+                            <a>Account Info</a>
+                        </div>
                 </div>
                 <footer class="realmxp-footer">
                     <p>RealmXP Copyright 2023</p>
@@ -51,7 +106,49 @@
             </section>
 
             <aside class="right-sidebar">
+                <div class="chat-room">
+                    <h2>Chat Rooms</h2>
+                </div>
 
+                <div class="friend-list">
+                    <img class="friend-icon" src="./img/friend.png" alt="friends"/>
+                    <img class="world-icon" src="./img/icons8-globe-100.png" alt="world"/>
+                    <div class="ian">
+                        <img src="./img/Ian Macalinao.jpg" alt="Ian"/>
+                        <p>Ian Macalinao</p>
+                        <div class="active-online"></div>
+                    </div>
+                    <div class="kyle">
+                        <img src="./img/Kyle Bautista.jpg" alt="Kyle"/>
+                        <p>Kyle Bautista</p>
+                        <div class="active-online"></div>
+                    </div>
+                    <div class="russel">
+                        <img src="./img/John Russel Roble.jpg" alt="Russel"/>
+                        <p>John Russel Roble</p>
+                        <div class="active-online"></div>
+                    </div>
+                    <div class="jerome">
+                        <img src="./img/Jerome Dumelod.jpg" alt="Jerome"/>
+                        <p>Jerome Dumelod</p>
+                        <div class="active-online"></div>
+                    </div>
+                    <div class="denzee">
+                        <img src="./img/Denzee Lagunoy.jpg" alt="Denzee"/>
+                        <p>Denzee Jay Lagunoy</p>
+                        <div class="active-online"></div>
+                    </div>
+                    <div class="simeon">
+                        <img src="./img/Joseph Simeon.jpg" alt="Simeon"/>
+                        <p>Marc Joseph Simeon</p>
+                        <div class="active-online"></div>
+                    </div>
+                </div>
+
+                <div class="search-friends">
+                    <input type="search" placeholder="Search Friends"/>
+                    <img src="./img/icons8-search-50.png"/>
+                </div>
             </aside>
         </div>
     </body>
