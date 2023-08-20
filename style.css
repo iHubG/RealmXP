@@ -64,6 +64,17 @@ body {
     color: aliceblue;
 }
 
+.realmxp-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.realmxp-icon-box img {
+    width: 60px;
+}
+
 .log-box input {
     width: 300px;
     font-size: 1.3rem;
