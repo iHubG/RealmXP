@@ -37,7 +37,6 @@ body {
     width: 100%;
     height: 700px;
     image-orientation: 16/9;
-    
 }
 
 .log-in-box {
@@ -137,6 +136,140 @@ a.create-button:hover {
     background-color: #66FCF1;
     color: #0B0610;
     border: 2px solid black;
+}
+
+     /*Responsive Design for Log In Page*/
+@media (min-width: 300px) and (max-width: 1100px) {
+    .log-in-header {
+        height: 80px;
+    }
+    
+    .bg-login {
+        background-position: center;
+    }
+
+    .log-in-box h2 {
+        font-size: 1.7rem;
+    }
+
+    .realmxp-icon-box img {
+        width: 50px;
+    }
+
+    .log-box input {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    a.log-in-button {
+        width: 60%;
+    }
+
+    a.create-button {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  
+    .log-in-box {
+        width: 80%;
+        
+    }
+
+    .log-in-header h1 {
+        font-size: 1.4rem;
+    } 
+
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  
+    .log-in-box {
+        width: 70%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.4rem;
+    } 
+
+}
+
+
+@media (min-width: 501px) and (max-width: 600px) {
+   
+    .log-in-box {
+        width: 60%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.5rem;
+    } 
+
+}
+
+
+@media (min-width: 601px) and (max-width: 700px) {
+
+    .log-in-box {
+        width: 50%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.6rem;
+    } 
+
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+
+    .log-in-box {
+        width: 45%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.7rem;
+    } 
+
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+
+    .log-in-box {
+        width: 40%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.8rem;
+    } 
+
+
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+
+    .log-in-box {
+        width: 35%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.9rem;
+    } 
+
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+
+    .log-in-box {
+        width: 30%;
+    }
+
+    .log-in-header h1 {
+        font-size: 1.9rem;
+    } 
+
 }
 
     /*SIGN UP PAGE*/
@@ -260,6 +393,140 @@ a.log-here-button:hover {
     background-color: #66FCF1;
     color: #0B0610;
     border: 2px solid black;
+}
+
+ /*Responsive Design for Sign Up Page*/
+ @media (min-width: 300px) and (max-width: 1100px) {
+    .sign-up-header {
+        height: 80px;
+    }
+    
+    .bg-sign-up {
+        background-position: center;
+    }
+
+    .sign-up-box h2 {
+        font-size: 1.7rem;
+    }
+
+    .realmxp-icon-box img {
+        width: 50px;
+    }
+
+    .sign-box input {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    a.sign-up-button {
+        width: 60%;
+    }
+
+    a.log-here-button {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  
+    .sign-up-box {
+        width: 80%;
+        
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.4rem;
+    } 
+
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  
+    .sign-up-box {
+        width: 70%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.4rem;
+    } 
+
+}
+
+
+@media (min-width: 501px) and (max-width: 600px) {
+   
+    .sign-up-box {
+        width: 60%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.5rem;
+    } 
+
+}
+
+
+@media (min-width: 601px) and (max-width: 700px) {
+
+    .sign-up-box {
+        width: 50%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.6rem;
+    } 
+
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+
+    .sign-up-box {
+        width: 45%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.7rem;
+    } 
+
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+
+    .sign-up-box {
+        width: 40%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.8rem;
+    } 
+
+
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+
+    .sign-up-box {
+        width: 35%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.9rem;
+    } 
+
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+
+    .sign-up-box {
+        width: 30%;
+    }
+
+    .sign-up-header h1 {
+        font-size: 1.9rem;
+    } 
+
 }
 
     /*REALMXP PAGE*/
@@ -754,6 +1021,11 @@ img.friend-icon:hover, img.world-icon:hover {
     font-size: .8rem;
 }
 
+.friend-list a {
+    text-decoration: none;
+    color: azure;
+}
+
 .active-online {
     width: 10px;
     height: 10px;
@@ -833,3 +1105,338 @@ img.friend-icon:hover, img.world-icon:hover {
             'left-sidebar main-content main-content right-sidebar';
     }
 }
+
+    /*Chat Page*/
+.chat-box {
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/57457-Fantasy-Portal-4k-Ultra-HD-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.convo-box {
+    width: 35%;
+    margin: auto;
+    height: 600px;
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #555;
+    overflow: hidden;
+    color: #28282B;
+}
+
+.convo-box h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.chat-header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 0px 1px 1px #555;
+    color: #28282B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.chat-header p {
+    font-size: 1.3rem;
+}
+
+.name-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.name-logo img {
+    width: 40px;
+}
+
+.call-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    gap: 15px;
+}
+
+.call-video img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.call-video img:hover {
+    background-color: #28282B;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.chat-body {
+    width: 100%;
+    height: 390px;
+}
+
+.chat-message {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.chat-message img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.chat-message img:hover {
+    border-radius: 50%;
+    background-color: #28282B;
+    padding: 5px;
+}
+
+.chat-message input {
+    padding: 8px;
+    font-size: 1.1rem;
+    outline: 1px solid #66FCF1;
+    border: none;
+    border-radius: 10px;
+    width: 72%;
+}
+
+@media (min-width:300px) and (max-width:1100px) {
+
+    .chat-box {
+       background-position: center;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    
+    .convo-box {
+        width: 90%;
+        margin: auto;
+        height: 600px;
+    }
+
+    .convo-box h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .chat-header {
+        height: 40px;
+    }
+
+    .chat-header p {
+        font-size: 1rem;
+    }
+
+    .name-logo img {
+        width: 30px;
+    }
+
+    .call-video img {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .call-video img:hover {
+        background-color: #28282B;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .chat-body {
+        width: 100%;
+        height: 450px;
+    }
+
+    .chat-message {
+        height: 40px;
+    }
+
+    .chat-message img {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .chat-message input {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width:501px) and (max-width:600px) {
+    
+    .convo-box {
+        width: 70%;
+        margin: auto;
+        height: 600px;
+    }
+
+    .convo-box h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .chat-header {
+        height: 50px;
+    }
+
+    .chat-header p {
+        font-size: 1.1rem;
+    }
+
+    .name-logo img {
+        width: 35px;
+    }
+
+    .call-video img {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .call-video img:hover {
+        background-color: #28282B;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .chat-body {
+        width: 100%;
+        height: 430px;
+    }
+
+    .chat-message {
+        height: 50px;
+    }
+
+    .chat-message img {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .chat-message input {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media (min-width:601px) and (max-width:700px) {
+    
+    .convo-box {
+        width: 60%;
+        margin: auto;
+        height: 600px;
+    }
+
+    .convo-box h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .chat-header {
+        height: 50px;
+    }
+
+    .chat-header p {
+        font-size: 1.1rem;
+    }
+
+    .name-logo img {
+        width: 35px;
+    }
+
+    .call-video img {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .call-video img:hover {
+        background-color: #28282B;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .chat-body {
+        width: 100%;
+        height: 430px;
+    }
+
+    .chat-message {
+        height: 50px;
+    }
+
+    .chat-message img {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .chat-message input {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width:701px) and (max-width:800px) {
+    
+    .convo-box {
+        width: 55%;
+        margin: auto;
+        height: 600px;
+    }
+ 
+}
+
+@media (min-width:801px) and (max-width:900px) {
+    
+    .convo-box {
+        width: 50%;
+        margin: auto;
+        height: 600px;
+    }
+ 
+}
+
+@media (min-width:901px) and (max-width:1000px) {
+    
+    .convo-box {
+        width: 45%;
+        margin: auto;
+        height: 600px;
+    }
+ 
+}
+
+
+@media (min-width:1001px) and (max-width:1100px) {
+    
+    .convo-box {
+        width: 45%;
+        margin: auto;
+        height: 600px;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
